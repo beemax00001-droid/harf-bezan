@@ -1,14 +1,9 @@
-/*
-  1) Firebase Console > Project settings > Your apps > Web app
-  2) Copy the config object values into the fields below.
-  3) Keep the keys as strings. measurementId is optional.
-*/
 export const firebaseConfig = {
-  apiKey: "PASTE_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAZmllHrVM4kmIJVrIlAll9j25F85VafMM",
+  authDomain: "harf-bezan-ba278.firebaseapp.com",
+  databaseURL: "https://harf-bezan-ba278-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "harf-bezan-ba278",
+  storageBucket: "harf-bezan-ba278.firebasestorage.app",
+  messagingSenderId: "435525307784",
+  appId: "1:435525307784:web:d6df693d1da1454888be3d"
 };
