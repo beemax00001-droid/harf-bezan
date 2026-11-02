@@ -5,5 +5,6 @@ export const firebaseConfig = {
   projectId: "harf-bezan-ba278",
   storageBucket: "harf-bezan-ba278.firebasestorage.app",
   messagingSenderId: "435525307784",
-  appId: "1:435525307784:web:d6df693d1da1454888be3d"
+  appId: "1:435525307784:web:d6df693d1da1454888be3d",
+  measurementId: "G-H8LX9MYC6D"
 };
