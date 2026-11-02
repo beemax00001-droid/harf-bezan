@@ -1,0 +1,19 @@
+name = "harf-bezan-room"
+main = "worker.js"
+compatibility_date = "2026-11-02"
+workers_dev = true
+
+[vars]
+# فقط Origin سایت را بنویس؛ مسیر مخزن GitHub در آن قرار نمی‌گیرد.
+SITE_ORIGIN = "https://YOUR-GITHUB-USERNAME.github.io"
+
+[observability]
+enabled = true
+
+[[durable_objects.bindings]]
+name = "ROOMS"
+class_name = "RoomDO"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RoomDO"]
